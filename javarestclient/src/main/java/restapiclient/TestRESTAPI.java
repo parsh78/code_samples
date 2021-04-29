@@ -10,7 +10,7 @@ public class TestRESTAPI {
 		// TODO Auto-generated method stub
 		HttpResponse<String> httpResponse;
 		try {
-			httpResponse = Unirest.get("http://localhost:8080/courses/1").asString();
+			httpResponse = Unirest.get("https://ipinfo.io/json").asString();
 			System.out.println( httpResponse.getBody());
 		} catch (UnirestException e) {
 			// TODO Auto-generated catch block
