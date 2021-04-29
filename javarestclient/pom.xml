@@ -16,7 +16,7 @@
     <configuration>
       <archive>
         <manifest>
-        <mainClass>javarestclient.restapiclient.TestRESTAPI</mainClass>
+        <mainClass>restapiclient.TestRESTAPI</mainClass>
         </manifest>
       </archive>
     </configuration>
